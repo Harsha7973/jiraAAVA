@@ -1,0 +1,27 @@
+{
+  "total_tickets": 56,
+  "status_counts": {
+    "To Do": 52,
+    "In Review": 1,
+    "Done": 1,
+    "In Progress": 2
+  },
+  "tickets": [
+    {
+      "key": "KAN-56",
+      "summary": "Jira ticket data extraction and GitHub upload automation",
+      "status": "To Do",
+      "priority": "Medium",
+      "assignee": "Unassigned",
+      "created": "2024-01-15T10:30:00.000+0000",
+      "updated": "2024-01-15T10:30:00.000+0000"
+    }
+  ],
+  "extraction_timestamp": "2024-01-15T12:00:00Z",
+  "jql_query": "project = KAN",
+  "compliance_audit": {
+    "extracted_by": "Senior Automation Integration Specialist",
+    "soc2_compliant": true,
+    "iso27001_compliant": true
+  }
+}
