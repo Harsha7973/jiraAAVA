@@ -1,0 +1,12 @@
+{
+  "total_tickets": 56,
+  "status_counts": {
+    "To Do": 52,
+    "In Review": 1,
+    "Done": 1,
+    "In Progress": 2
+  },
+  "pending_open_tickets": 55,
+  "closed_tickets": 1,
+  "tickets": []
+}
