@@ -1,0 +1,11 @@
+{
+    "key": "KAN-123",
+    "summary": "Dummy Ticket 67",
+    "status": "In Progress",
+    "assignee": "Unassigned",
+    "reporter": "HarshaVardhan",
+    "priority": "Medium",
+    "created": "2026-04-17T15:55:18.801+0530",
+    "updated": "2026-04-17T15:55:21.527+0530",
+    "issue_type": "Task"
+}
