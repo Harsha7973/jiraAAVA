@@ -1,1 +1,107 @@
-main
+{
+  "extraction_summary": {
+    "project_key": "DO",
+    "jql_query_used": "project = \"DO\" ORDER BY created DESC",
+    "total_project_tickets": 3,
+    "total_linked_tickets_fetched": 0,
+    "total_tickets_in_output": 3,
+    "status_counts": {
+      "Done": 1,
+      "In Progress": 1,
+      "To Do": 1
+    }
+  },
+  "all_tickets": [
+    {
+      "key": "DO-3",
+      "summary": "Done Development ",
+      "status": "Done",
+      "priority": "Medium",
+      "issue_type": "Task",
+      "assignee": "Unassigned",
+      "assignee_email": null,
+      "reporter": "HarshaVardhan",
+      "reporter_email": "daraharshafake@gmail.com",
+      "created": "2026-05-04T12:48:37.158+0530",
+      "updated": "2026-05-04T12:48:38.034+0530",
+      "description": "",
+      "labels": [],
+      "components": [],
+      "story_points": null,
+      "epic_link": null,
+      "subtasks": [],
+      "parent": null,
+      "comments": [],
+      "linked_to": [],
+      "linked_issue_keys": []
+    },
+    {
+      "key": "DO-2",
+      "summary": "Need the prod requirments ",
+      "status": "In Progress",
+      "priority": "Medium",
+      "issue_type": "Task",
+      "assignee": "Unassigned",
+      "assignee_email": null,
+      "reporter": "HarshaVardhan",
+      "reporter_email": "daraharshafake@gmail.com",
+      "created": "2026-05-04T12:48:18.378+0530",
+      "updated": "2026-05-04T15:44:03.742+0530",
+      "description": "",
+      "labels": [],
+      "components": [],
+      "story_points": null,
+      "epic_link": null,
+      "subtasks": [],
+      "parent": null,
+      "comments": [],
+      "linked_to": [
+        {
+          "link_type": "Blocks",
+          "direction": "inward",
+          "key": "DO-1",
+          "summary": "Need to Develope ETL ",
+          "status": "To Do",
+          "priority": "Medium"
+        }
+      ],
+      "linked_issue_keys": [
+        "DO-1"
+      ]
+    },
+    {
+      "key": "DO-1",
+      "summary": "Need to Develope ETL ",
+      "status": "To Do",
+      "priority": "Medium",
+      "issue_type": "Task",
+      "assignee": "Unassigned",
+      "assignee_email": null,
+      "reporter": "HarshaVardhan",
+      "reporter_email": "daraharshafake@gmail.com",
+      "created": "2026-05-04T12:47:38.708+0530",
+      "updated": "2026-05-04T15:44:03.710+0530",
+      "description": "",
+      "labels": [],
+      "components": [],
+      "story_points": null,
+      "epic_link": null,
+      "subtasks": [],
+      "parent": null,
+      "comments": [],
+      "linked_to": [
+        {
+          "link_type": "Blocks",
+          "direction": "outward",
+          "key": "DO-2",
+          "summary": "Need the prod requirments ",
+          "status": "In Progress",
+          "priority": "Medium"
+        }
+      ],
+      "linked_issue_keys": [
+        "DO-2"
+      ]
+    }
+  ]
+}
