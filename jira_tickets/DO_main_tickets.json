@@ -2,16 +2,84 @@
   "extraction_summary": {
     "project_key": "DO",
     "jql_query_used": "project = \"DO\" ORDER BY created DESC",
-    "total_project_tickets": 3,
+    "total_project_tickets": 5,
     "total_linked_tickets_fetched": 0,
-    "total_tickets_in_output": 3,
+    "total_tickets_in_output": 5,
     "status_counts": {
-      "Done": 1,
-      "In Progress": 1,
-      "To Do": 1
+      "In Progress": 2,
+      "To Do": 2,
+      "Done": 1
     }
   },
   "all_tickets": [
+    {
+      "key": "DO-5",
+      "summary": "Fix login issue",
+      "status": "In Progress",
+      "priority": "Medium",
+      "issue_type": "Task",
+      "assignee": "Unassigned",
+      "assignee_email": null,
+      "reporter": "HarshaVardhan",
+      "reporter_email": "daraharshafake@gmail.com",
+      "created": "2026-05-05T11:19:40.733+0530",
+      "updated": "2026-05-05T11:20:56.839+0530",
+      "description": "",
+      "labels": [],
+      "components": [],
+      "story_points": null,
+      "epic_link": null,
+      "subtasks": [],
+      "parent": null,
+      "comments": [],
+      "linked_to": [
+        {
+          "link_type": "Blocks",
+          "direction": "inward",
+          "key": "DO-4",
+          "summary": "Implement search feature",
+          "status": "To Do",
+          "priority": "Medium"
+        }
+      ],
+      "linked_issue_keys": [
+        "DO-4"
+      ]
+    },
+    {
+      "key": "DO-4",
+      "summary": "Implement search feature",
+      "status": "To Do",
+      "priority": "Medium",
+      "issue_type": "Task",
+      "assignee": "Unassigned",
+      "assignee_email": null,
+      "reporter": "HarshaVardhan",
+      "reporter_email": "daraharshafake@gmail.com",
+      "created": "2026-05-05T11:18:58.101+0530",
+      "updated": "2026-05-05T11:20:56.804+0530",
+      "description": "",
+      "labels": [],
+      "components": [],
+      "story_points": null,
+      "epic_link": null,
+      "subtasks": [],
+      "parent": null,
+      "comments": [],
+      "linked_to": [
+        {
+          "link_type": "Blocks",
+          "direction": "outward",
+          "key": "DO-5",
+          "summary": "Fix login issue",
+          "status": "In Progress",
+          "priority": "Medium"
+        }
+      ],
+      "linked_issue_keys": [
+        "DO-5"
+      ]
+    },
     {
       "key": "DO-3",
       "summary": "Done Development ",
@@ -103,5 +171,47 @@
         "DO-2"
       ]
     }
-  ]
+  ],
+  "linked_tickets_detail": {
+    "DO-5": [
+      {
+        "link_type": "Blocks",
+        "direction": "inward",
+        "key": "DO-4",
+        "summary": "Implement search feature",
+        "status": "To Do",
+        "priority": "Medium"
+      }
+    ],
+    "DO-4": [
+      {
+        "link_type": "Blocks",
+        "direction": "outward",
+        "key": "DO-5",
+        "summary": "Fix login issue",
+        "status": "In Progress",
+        "priority": "Medium"
+      }
+    ],
+    "DO-2": [
+      {
+        "link_type": "Blocks",
+        "direction": "inward",
+        "key": "DO-1",
+        "summary": "Need to Develope ETL ",
+        "status": "To Do",
+        "priority": "Medium"
+      }
+    ],
+    "DO-1": [
+      {
+        "link_type": "Blocks",
+        "direction": "outward",
+        "key": "DO-2",
+        "summary": "Need the prod requirments ",
+        "status": "In Progress",
+        "priority": "Medium"
+      }
+    ]
+  }
 }
